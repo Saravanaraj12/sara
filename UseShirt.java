@@ -49,5 +49,6 @@ public class UseShirt {
 }
 	
 	checkedShirt.forEach(x->System.out.println(x));
+	checkedShirt.forEach(x->System.out.println(x.getColour()));
 	}
 }
